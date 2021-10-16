@@ -1,9 +1,15 @@
 import Navi from "./Navi.js";
 import "./App.css";
+import Card from "./Card.js";
 
 function App() {
   return (
-    <Navi />
+    <div>
+          <Navi />
+          <Card />
+          
+    </div>
+
   );
 }
 

@@ -1,9 +1,9 @@
 import React from "react";
 import './App.css'
 
-function Navi() {
+function Topbar() {
     return(
-        <div className="App">
+        <div className="Topbar">
       <div className="navbar bg-neutral text-neutral-content shadow-lg">
         <div className="navbar-start mx-4">
           <span className="text-lg">Manga</span>
@@ -11,11 +11,11 @@ function Navi() {
 
         <div className="navbar-center w-1/2">
           <div class="flex-1 flex-grow">
-            <div class="form-control text-xl">
+            <div class="form-control ">
               <input
                 type="text"
                 placeholder="Search"
-                class="input input-ghost"
+                class="input bg-base-100 input-ghost placeholder-white text-lg"
               />
             </div>
           </div>
@@ -34,4 +34,4 @@ function Navi() {
     
 }
 
-export default Navi;
+export default Topbar;
