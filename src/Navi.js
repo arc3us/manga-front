@@ -9,7 +9,7 @@ function Topbar() {
       <Router>
         <div className="navbar bg-neutral text-neutral-content shadow-lg">
           <div className="navbar-start mx-4">
-            <span className="text-lg">Manga</span>
+            <Link to="/index" className="text-lg">Manga</Link>
           </div>
 
           <div className="navbar-center w-1/2">

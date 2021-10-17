@@ -3,11 +3,13 @@ import "./App.css";
 import Card from "./Card.js";
 import Auth from "./Auth.js";
 
+const name="trial"
+
 function App() {
   return (
     <div>
           <Navi />
-          <Card />
+          <Card name={name}/>
     </div>
 
   );
