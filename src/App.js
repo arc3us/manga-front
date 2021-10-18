@@ -2,6 +2,7 @@ import Navi from "./Navi.js";
 import "./App.css";
 import Card from "./Card.js";
 import Auth from "./Auth.js";
+import Manga from "./Manga.js";
 
 const name="trial"
 const artlink="https://thiscatdoesnotexist.com/"
@@ -13,7 +14,7 @@ function App() {
   return (
     <div>
           <Navi />
-          <Card name={name} artlink={artlink} desc={desc} genre={genre} altgenre={altgenre}/>
+          <Manga name={name} artlink={artlink} desc={desc} genre={genre} altgenre={altgenre}/>
     </div>
 
   );
