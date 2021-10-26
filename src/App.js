@@ -5,6 +5,7 @@ import Auth from "./Auth.js";
 import Manga from "./Manga.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Home.js";
+import Footer from "./Foot.js";
 
 const name = "trial";
 const artlink = "https://thiscatdoesnotexist.com/";
@@ -32,6 +33,7 @@ function App(props) {
                 <Manga />
               </Route>
             </Switch>
+            {/* <Footer /> */}
         </div>
       </div>
     </Router>

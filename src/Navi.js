@@ -43,7 +43,31 @@ function Topbar() {
                 <option value="synthwave">Synthwave</option>
               </select>
             </div> */}
-            <a class="btn btn-ghost btn-sm rounded-btn">Genres</a>
+            <div class="dropdown">
+              <div tabindex="0" class="btn btn-ghost btn-sm rounded-btn">
+                Genres
+              </div>
+              <ul
+                tabindex="0"
+                class="p-2 shadow menu dropdown-content bg-base-200 rounded-box w-52"
+              >
+                <li>
+                  <a>Thriller</a>
+                </li>
+                <li>
+                  <a>Mystery</a>
+                </li>
+                <li>
+                  <a>Fantasy</a>
+                </li>
+                <li>
+                  <a>Adventure</a>
+                </li>
+                <li>
+                  <a>Action</a>
+                </li>
+              </ul>
+            </div>
             <a class="btn btn-ghost btn-sm rounded-btn">Lists</a>
             <Link to="/Auth" class="btn btn-ghost btn-sm rounded-btn">
               Login

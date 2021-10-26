@@ -40,7 +40,7 @@ const Home = (props) => {
       <br/>
       <br/>
       <h2 className="text-4xl">New Additions</h2>
-      <div className="mt-4 flex gap-4 w-1/6">
+      <div className="mt-4 mb-8 flex gap-4 w-1/6">
            {
                data.map(mangaInfo => {
                    return(
