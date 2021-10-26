@@ -5,9 +5,22 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      textColor: ['visited'],
+    },
   },
   plugins: [
     require('daisyui'),
   ],
+  daisyui: {
+    themes: [
+      'light',
+      'dark',
+      'dracula',
+      'cupcake',
+      'synthwave',
+      'fantasy',
+
+    ],
+  },
 }
