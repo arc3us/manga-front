@@ -12,7 +12,7 @@ const desc = "This is a manga about something something";
 const genre = "fantasy";
 const altgenre = "mecha";
 
-function App() {
+function App(props) {
   return (
     <Router>
       <div>

@@ -5,20 +5,21 @@ const Home = (props) => {
 
     const data=[
         {
-            name: "Manga name 1", art: "https://thiscatdoesnotexist.com/", des: "this is a manga about xyz stuff", g1: "crime", g2: "mecha"
+            id: 1, name: "Manga name 1", art: "https://thiscatdoesnotexist.com/", des: "this is a manga about xyz stuff", g1: "crime", g2: "mecha"
         },
         {
-            name: "Manga name 1", art: "https://thiscatdoesnotexist.com/", des: "this is a manga about xyz stuff", g1: "crime", g2: "mecha"
+            id: 2, name: "Manga name 1", art: "https://thiscatdoesnotexist.com/", des: "this is a manga about xyz stuff", g1: "crime", g2: "mecha"
         },
         {
-            name: "Manga name 1", art: "https://thiscatdoesnotexist.com/", des: "this is a manga about xyz stuff", g1: "crime", g2: "mecha"
+            id: 3, name: "Manga name 1", art: "https://thiscatdoesnotexist.com/", des: "this is a manga about xyz stuff", g1: "crime", g2: "mecha"
         },
         {
-            name: "Manga name 1", art: "https://thiscatdoesnotexist.com/", des: "this is a manga about xyz stuff", g1: "crime", g2: "mecha"
+            id: 4, name: "Manga name 1", art: "https://thiscatdoesnotexist.com/", des: "this is a manga about xyz stuff", g1: "crime", g2: "mecha"
         },
         {
-            name: "Manga name 1", art: "https://thiscatdoesnotexist.com/", des: "this is a manga about xyz stuff", g1: "crime", g2: "mecha"
+            id: 5, name: "Manga name 1", art: "https://thiscatdoesnotexist.com/", des: "this is a manga about xyz stuff", g1: "crime", g2: "mecha"
         },
+        
     ]
 
   return (
