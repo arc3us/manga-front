@@ -10,9 +10,9 @@ const Card = (props) => {
 
 
   return (
-    <div className="card bordered shadow-lg w-1/6 min-w-24">
+    <div className="card bordered shadow-lg">
       <figure>
-        <img src={imgsrc} class></img>
+        <img src={imgsrc}></img>
       </figure>
 
       <div className="card-body">

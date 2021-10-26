@@ -2,14 +2,16 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Auth from "./Auth";
+import reactDom from "react-dom";
 
 function Topbar() {
   return (
     <div className="Topbar">
-      <Router>
         <div className="navbar bg-neutral text-neutral-content shadow-lg">
           <div className="navbar-start mx-4">
-            <Link to="/index" className="text-lg">Manga</Link>
+            <Link to="/" className="text-lg">
+              Manga
+            </Link>
           </div>
 
           <div className="navbar-center w-1/2">
@@ -34,12 +36,6 @@ function Topbar() {
             </div>
           </div>
         </div>
-        <Switch>
-          <Router path="/Auth">
-            <Auth />
-          </Router>
-        </Switch>
-      </Router>
     </div>
   );
 }

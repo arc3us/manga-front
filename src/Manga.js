@@ -30,7 +30,7 @@ const Manga = (props) => {
           <a className="">value</a>
         </div>
       </div>
-      <a className="text-bold text-lg">Rating:</a>
+      <p className="text-bold text-lg mb-8 float-none">Rating:</p>
     </div>
   );
 };
