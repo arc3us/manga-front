@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card"
+import Recommendations from "./Recommendations";
 
 const Home = (props) => {
 
@@ -51,6 +52,7 @@ const Home = (props) => {
                })
            }
       </div>
+      <Recommendations />
     </div>
   );
 }
