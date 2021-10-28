@@ -9,14 +9,13 @@ import { themeChange } from "theme-change";
 function Topbar() {
   useEffect(() => {
     themeChange(false);
-    // 👆 false parameter is required for react project
   }, []);
   return (
     <div className="Topbar">
       <div className="navbar bg-neutral text-neutral-content shadow-lg">
         <div className="navbar-start mx-4">
           <Link to="/" className="text-lg">
-            Manga
+            Home
           </Link>
         </div>
 
