@@ -66,9 +66,17 @@ function Topbar() {
                 <li>
                   <a>Action</a>
                 </li>
+                <li>
+                  <a>Crime</a>
+                </li>
+                <li>
+                  <a>Mecha</a>
+                </li>
               </ul>
             </div>
-            <a class="btn btn-ghost btn-sm rounded-btn">Lists</a>
+            <Link to="/Lists" class="btn btn-ghost btn-sm rounded-btn">
+              Lists
+            </Link>
             <Link to="/Auth" class="btn btn-ghost btn-sm rounded-btn">
               Login
             </Link>

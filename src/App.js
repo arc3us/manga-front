@@ -6,6 +6,8 @@ import Manga from "./Manga.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Home.js";
 import Footer from "./Foot.js";
+import Lists from "./Lists.js";
+import Register from "./Register.js";
 
 const name = "trial";
 const artlink = "https://thiscatdoesnotexist.com/";
@@ -31,6 +33,12 @@ function App(props) {
               </Route>
               <Route path="/Manga">
                 <Manga />
+              </Route>
+              <Route path="/Lists">
+                <Lists />
+              </Route>
+              <Route path="/Register">
+                <Register />
               </Route>
             </Switch>
             {/* <Footer /> */}

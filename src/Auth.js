@@ -1,6 +1,7 @@
 import { render } from "@testing-library/react";
 import React from "react";
 import Navi from "./Navi.js"
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function Auth() {
   return (
@@ -23,6 +24,12 @@ function Auth() {
         </div>
         <div className="p-4">
           <button className="btn btn-primary btn-lg">LOGIN</button>
+        </div>
+        <div className="p-4">
+          <a className="text-lg">New User? </a>
+          <Link to="/Register" class="text-lg underline text-primary">
+              Register
+            </Link>
         </div>
       </div>
     </div>
