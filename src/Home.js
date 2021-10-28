@@ -27,7 +27,7 @@ const Home = (props) => {
     <div className="mt-4 ml-4 font-bold">
         <br />
       <h2 className="text-4xl">Trending now</h2>
-      <div className="mt-4 flex gap-4 w-1/6">
+      <div className="mt-4 flex gap-4 w-1/6 md:flex-shrink-0">
            {
                data.map(mangaInfo => {
                    return(

@@ -5,7 +5,7 @@ import reactDom from "react-dom";
 
 function Footer() {
   return (
-    <footer class="p-4 footer bg-base-300 text-base-content footer-center absolute">
+    <footer class="p-4 footer bg-base-300 text-base-content footer-center absolute mt-4 mb-0">
       <div>
         <p>Made by Arinjay and Vikram</p>
       </div>
