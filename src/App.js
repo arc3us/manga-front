@@ -41,8 +41,8 @@ function App(props) {
                 <Register />
               </Route>
             </Switch>
-            <Footer />
         </div>
+        <Footer />
       </div>
     </Router>
   );

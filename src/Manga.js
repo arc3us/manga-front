@@ -59,7 +59,7 @@ const Manga = (props) => {
         </tr>
         <tr className="table-row border">
           <td className="text-2xl flex-inline">
-            <p className="">Rating</p>
+            <p className="">Rating:    7/10</p>
             <div
               className="tooltip tooltip-bottom"
               data-tip="70% users liked this"

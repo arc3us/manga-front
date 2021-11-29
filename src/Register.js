@@ -22,6 +22,7 @@ function Register() {
               name="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
+              required
             />
           {/* </label> */}
 
@@ -77,7 +78,7 @@ function Register() {
 
         </div>
         <div className="p-4">
-          <button className="btn btn-primary btn-lg">Register</button>
+          <button className="btn btn-primary btn-lg" type="submit">Register</button>
         </div>
       </div>
     </div>
