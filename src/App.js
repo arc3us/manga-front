@@ -1,4 +1,5 @@
 import Navi from "./Navi.js";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Card from "./Card.js";
 import Auth from "./Auth.js";
@@ -8,14 +9,9 @@ import Home from "./Home.js";
 import Footer from "./Foot.js";
 import Lists from "./Lists.js";
 import Register from "./Register.js";
+import { ApolloClient, ApolloProvider, InMemoryCache, HttpLink } from '@apollo/client';
 
-const name = "trial";
-const artlink = "https://thiscatdoesnotexist.com/";
-const desc = "This is a manga about something something";
-const genre = "fantasy";
-const altgenre = "mecha";
-
-function App(props) {
+function App() {
   return (
     <Router>
       <div>
@@ -31,7 +27,7 @@ function App(props) {
               <Route path="/Auth">
                 <Auth />
               </Route>
-              <Route path="/Manga">
+              <Route path="/Manga/:id">
                 <Manga />
               </Route>
               <Route path="/Lists">

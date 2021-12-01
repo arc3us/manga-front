@@ -33,15 +33,6 @@ function Topbar() {
 
         <div className="navbar-end">
           <div class="flex items-stretch">
-            {/* <div className="">
-              <select data-choose-theme className="btn btn-ghost btn-sm rounded-btn dropdown">
-                <option value="light" className="">Light</option>
-                <option value="dark">Dark</option>
-                <option value="dracula">Dracula</option>
-                <option value="fantasy">Fantasy</option>
-                <option value="synthwave">Synthwave</option>
-              </select>
-            </div> */}
             <div class="dropdown">
               <div tabindex="0" class="btn btn-ghost btn-sm rounded-btn">
                 Genres
