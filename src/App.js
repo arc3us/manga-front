@@ -27,7 +27,7 @@ function App() {
               <Route path="/Auth">
                 <Auth />
               </Route>
-              <Route path="/Manga/:id">
+              <Route path="/Manga">
                 <Manga />
               </Route>
               <Route path="/Lists">
