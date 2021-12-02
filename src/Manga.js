@@ -93,7 +93,7 @@ const Manga = (props) => {
         <tr className="table-row border">
           <td className="text-2xl flex-inline">
             <p className="">Rating:   {mScore}%</p>
-            <div
+            <div data-tip={mScore}
               className="tooltip tooltip-bottom"
             >
               <progress
